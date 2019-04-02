@@ -1,0 +1,11 @@
+<h1>People Found</h1>
+<h2>{{personName}}</h2>
+<main>
+	<ul>
+	{{#each person}}
+		<li>
+			<a href="/details/{{id}}">{{firstName}} {{lastName}}</a>
+		</li>
+	{{/each}}
+	</ul>
+</main>

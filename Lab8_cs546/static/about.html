@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>People Finder</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../public/site.css">
+</head>
+<body>
+	<h1>People Finder</h1>
+    <main>
+        <p>This website will search through a database of people and return their information. Fill out the form below to start your search.</p>
+		<form method="POST" action="/search">
+			<label for="theInput">Name:</label><br>
+			<input type="text" name="personName" id="theInput"/><br><br>
+			<button type="submit">Submit</button>
+		</form>
+    </main>
+</body>
+</html>
