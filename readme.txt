@@ -1,5 +1,5 @@
 # WebDevLabs
-Collection of labs for graduate course CS546: Web Programming at Stevens Institute of Technology
+Collection of labs for CS546: Web Programming at Stevens Institute of Technology
 Lab 3: using async functions and axios to work between 3 different datasets (people, weather, work)
 	• people.js
 		• getPersonById(id): returns person at the specified id
